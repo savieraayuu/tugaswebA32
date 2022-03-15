@@ -1,0 +1,43 @@
+/* Untuk Tablets */
+@media (max-width: 1000px) {
+    .products {
+      width: 50%;
+      margin-bottom: 50px;
+    }
+  }
+  
+  /* Untuk Smartphones */
+  
+  /* Tambahkan breakpoint max-width: 670px */
+  @media (max-width: 670px) {
+    /* Ubah width milik lesson ke 100% */
+    .top-wrapper{
+      width:100%
+    }
+    .top-wrapper h1{
+        font-size: 60px;
+        width: 40vw;
+    }
+    /* Ubah text-align property milik <footer> */
+  
+    .products-wrapper{
+        width: 100%;
+
+    }
+    .row{
+        flex-direction: column;
+    }
+    .footer{
+        flex-direction: column;
+    }
+    .product-item{
+        width: 80%;
+        height: auto;
+    }
+    .product-item img{
+        width: 30vw;
+    }
+    .btn.message{
+        width: 100%;
+    }
+  }

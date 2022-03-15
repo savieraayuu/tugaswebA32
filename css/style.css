@@ -1,0 +1,299 @@
+*{
+    margin: 0 ;
+ box-sizing: border-box;
+
+
+}
+
+body {
+  font-family: "Poppins";
+}
+
+h1,h2{
+  font-family: 'Maghfirea', sans-serif;
+}
+p,h3{
+  font-family: 'Poppins', sans-serif;
+}
+.container{
+  width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: white;
+  position :fixed;
+  top: 0;
+  z-index: 10;
+  border-bottom: 1px solid #93897f;
+  margin-bottom: 10px;
+}
+
+.logo {
+  width: 54px;
+}
+
+.header-left {
+  float: left;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+
+.header-right {
+  float: right;
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: #242321;
+  display: block;
+  float: left;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18x;
+  margin-right: 10px;
+}
+
+.header-right a:hover {
+  background-color: #beb9b2;
+}
+
+.top-wrapper{
+  background-image: url('../img/cover.png'); /* The image used */
+  background-color: #cccccc; /* Used if the image is unavailable */
+  height: 550px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  box-sizing: border-box;
+  padding-top: 100px;
+  padding-left: 80px;
+  width: 100%;
+                                            
+}
+.top-wrapper h1{
+  
+  color: #e1e0dd;  
+  font-size: 100px; 
+  width: 30vw;
+   padding-bottom: 15px;
+}
+
+.products-wrapper{
+ 
+  font-family: "Poppins";
+  height: 800px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+    
+}
+.products{
+  padding: 20px 40px 20px 40px;
+ 
+}
+.row{
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+
+.heading-product{
+  padding-top: 30px;
+ 
+  font-size: 30px;
+}
+
+
+.product-item{
+  width: 20%;
+  border: 1px solid #433f3a;
+  float: left;
+  padding: 30px 10px 10px 10px;
+  border-radius: 10px;
+  text-align: center;
+  margin: 15px;
+  transition: all 0.3s;
+  height: 280px;
+  
+
+}
+.product-item p{
+  width: 100%;
+  display: inline-block;
+  text-align: center;  
+  font-size: 15px;
+
+}
+.product-item img{
+  width: 80%
+}
+
+.product-item:hover{
+  box-shadow: 0 0 8px #d3d3d3;    
+    cursor: pointer;
+    transform: scale(1.015);
+}
+.order:hover{
+  opacity: 1;
+}
+.order:active{
+  box-shadow: none;
+  position: relative;
+  top: 7px;
+  border-radius: 10px;
+}
+.order{
+  background-color: #beb9b2;
+  opacity: #93897f;
+  box-shadow: 0px 7px #433f3a;
+  color: #fff;
+  padding: 10px 20px 10px 20px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+.box{
+  transform: translateX(400%);
+  transition: transform 1s ease;
+}
+.box:nth-of-type(even) {
+  transform: translateX(-400%);
+}
+
+.box.show {
+  transform: translateX(0);
+}
+.partnership {
+  margin-top: 10px;
+  text-align: center;
+  height: 500px;
+  padding-bottom: 50px;
+
+}
+
+.pLeft {
+  float: left;
+}
+
+.pLeft img {
+  width: 85%;
+  
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.pRight {
+  margin-left: 15px;
+}
+
+.pRight h2 {
+  padding-top: 70px;
+ 
+  font-size: 50px;
+}
+
+.pRight p {
+  margin-top: 20px;
+  font-family: "Poppins";
+  font-size: 20px;
+  text-align: left;
+  margin-left: 30px;
+  margin-bottom: 30px;
+  
+}
+
+.btn {
+  
+  padding: 12px 24px;
+  color: white;
+  background-color: #6c635a;
+  box-shadow: 0px 7px #433f3a;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: bold;
+  cursor: pointer;
+}
+.btn:active{
+  box-shadow: none;
+  position: relative;
+  top: 7px;
+  border-radius: 10px;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+footer{
+  height:230px;
+  background-color:#433f3a;
+   width: 100%;
+   padding-left: 50px;
+   padding-right: 50px;
+   padding-top: 30px;
+   padding-bottom: 30px;
+}
+.footer-left {
+  float:left;
+  width: 60%;
+  display: block;
+  align-items: center;
+  color:white;
+}
+.footer-left p{
+  font-size: 12px;
+}
+.footer-left h3{
+  font-size: 30px;
+}
+
+.footer-right{
+float: right;
+color: #fff;
+width:40%;
+}
+.grab-footer input{
+  outline: none;
+	display: block;
+	width: 80%;
+	padding: 10px;
+  margin-bottom: 10px;
+	border: none;
+	border-bottom: 1px solid #fff;
+	/* background: transparent; */
+}
+.row2{
+  display: flex;
+  align-items: center;
+  padding: 10px 0px 5px 0px;
+  
+}
+
+.quotes-wrapper{
+  display: flex;
+  align-items: center;
+  background-color: #e4e2de;
+  height: 350px;
+  padding: 20px 50px 20px 50px;
+}
+.txt-quotes{
+  float: left;
+  font-size: 40px;
+  width: 50%;
+  padding-left: 30px;
+ 
+}
+.img-quotes{
+  float:right;
+  width: 50%;
+  padding-left:30px;
+}
+.img-quotes img{
+    width:70%;
+  height: auto;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
